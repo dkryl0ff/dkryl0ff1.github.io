@@ -14,7 +14,7 @@
         <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
         <li><a href="#fragment">Ссылка на фрагмент текущей страницы</a></li>
         <li><a href="/page?param1=value1&param2=value2&param3=value3">Ссылка с тремя параметрами в URL</a></li>
-        <li><a href="/page&id=123">Ссылка с параметром id</a></li>
+        <li><a href="/page?id=123">Ссылка с параметром id</a></li>
         <li><a href="page.html">Относительная ссылка на страницу в текущем каталоге</a></li>
         <li><a href="about/page.html">Относительная ссылка на страницу в каталоге about</a></li>
         <li><a href="../page.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
@@ -68,7 +68,7 @@
         <label for="female">Женский</label><br><br>
         
         <label for="programming-language">Любимый язык программирования:</label><br/>
-        <select id="programming-language" name="programming__language" multiple required>
+        <select id="programming-language" name="programming__languages[]" multiple required>
         
           <option value="select">Выберите любимый ЯП</option>
           <option value="pascal">Pascal</option>
